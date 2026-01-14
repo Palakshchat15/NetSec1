@@ -1,0 +1,8 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input {
+  @apply w-full bg-neutral-900 border border-neutral-700 p-2 rounded text-white;
+}
+
